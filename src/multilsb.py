@@ -82,7 +82,7 @@ def main():
         else:
             instances = [str(i)]
     elif len(args.instances) == 2:
-        for i in range(args.instances[0],args.instances[1]):
+        for i in range(args.instances[0],args.instances[1]+1):
             name = ""
             if i/10 < 1:
                 name = '0'+str(i)
