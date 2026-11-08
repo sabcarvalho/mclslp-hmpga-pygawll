@@ -1,0 +1,49 @@
+===========================================================================
+CONSOLIDATED REPORT: SET3 | 16
+===========================================================================
+
+Time: 304.57586164474486 +/- 6.15141003449102 
+
+1. RESULTS PER RUN
+-----------------------------------
+Run 00 | Fitness: 142444.18180 | Acc: 0.00000 | Vars: 89
+Run 01 | Fitness: 134821.77525 | Acc: 0.00000 | Vars: 89
+Run 02 | Fitness: 144564.50090 | Acc: 0.00000 | Vars: 92
+Run 03 | Fitness: 134041.00170 | Acc: 0.00000 | Vars: 88
+Run 04 | Fitness: 138201.55350 | Acc: 0.00000 | Vars: 88
+Run 05 | Fitness: 140451.45860 | Acc: 0.00000 | Vars: 90
+Run 06 | Fitness: 139481.24133 | Acc: 0.00000 | Vars: 89
+Run 07 | Fitness: 134041.00170 | Acc: 0.00000 | Vars: 88
+Run 08 | Fitness: 139481.24133 | Acc: 0.00000 | Vars: 89
+Run 09 | Fitness: 134849.62528 | Acc: 0.00000 | Vars: 90
+
+2. GLOBAL BEST SOLUTION (MIN Fitness)
+-----------------------------------
+Best Fitness:      134041.00170
+Features Selected: 88
+Names: P0:F3, P0:F4, P0:F5, P0:F10, P0:F11, P0:F13, P0:F14, P1:F2, P1:F5, P1:F6, P1:F10, P1:F12, P1:F13, P1:F15, P2:F5, P2:F10, P2:F11, P2:F14, P2:F15, P3:F2, P3:F3, P3:F4, P3:F6, P3:F10, P3:F13, P4:F5, P4:F11, P4:F12, P4:F14, P4:F15, P5:F2, P5:F3, P5:F4, P5:F5, P5:F10, P5:F13, P6:F5, P6:F11, P6:F14, P7:F2, P7:F4, P7:F6, P7:F11, P7:F12, P7:F14, P7:F15, P8:F2, P8:F3, P8:F5, P8:F10, P8:F13, P9:F5, P9:F6, P9:F11, P9:F12, P9:F14, P9:F15, P10:F2, P10:F4, P10:F5, P10:F10, P10:F12, P10:F13, P10:F15, P11:F3, P11:F5, P11:F11, P11:F14, P12:F2, P12:F4, P12:F5, P12:F10, P12:F13, P13:F3, P13:F5, P13:F6, P13:F10, P13:F12, P13:F13, P13:F15, P14:F2, P14:F5, P14:F11, P14:F14, P15:F2, P15:F3, P15:F4, P15:F5, P15:F10, P15:F11, P15:F13, P15:F14
+
+3. EXTREME METRICS
+-----------------------------------
+Max Fitness:  144564.50090 (Vars: 92)
+Min Fitness:  134041.00170 (Vars: 88)
+
+4. GENERAL STATISTICS
+-----------------------------------
+Fitness  -> Mean: 138237.75814 | Std: 3522.63918 | CV: 0.0255
+Features -> Mean: 89.20 | Std: 1.17
+
+5. DEVs
+-----------------------------------
+LugNP: -6.1895918420274025
+AMH: -8.804261146531454
+HMPGA: -4.899854565039525
+Heuristic: -17.572070585600958
+
+6. Stats
+-----------------------------------
+Invalid individuals: 0.0 +/- 0.0
+Average Fitness Finals: 759468.2547200841 +/- 1197.2489514011916
+Average time to reach the minimum cost: 229.79376388000236 +/- 76.19990060900317
+Average number of calls to the solver until the minimum cost is reached: 425.6 +/-  55.03978359130582
+Average number of generations until the minimum cost is reached: 0.0 +/- 0.0
