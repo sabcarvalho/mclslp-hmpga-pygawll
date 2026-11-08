@@ -37,7 +37,7 @@ Este repositório contém os algoritmos, protocolos experimentais e scripts de a
 * **Utils:** Carregamento de dados.
 
 ### 📂 `multilsbnew`
-* **Conjuntos e Instâncias de teste do **MULTI-LSB**. Fonte: https://pureportal.strath.ac.uk/en/datasets/multilsb-multi-item-lot-sizing-with-backlogging/
+* **Conjuntos e Instâncias de teste do MULTI-LSB**. Fonte: https://pureportal.strath.ac.uk/en/datasets/multilsb-multi-item-lot-sizing-with-backlogging/
 
 ### 📂 `gawll`, `hmpga` & `hmpga-ll`
 * **Resultados das execuções:** Para cada algoritmo, separado por conjunto, os resultados apresentados e analisados na monografia.
@@ -78,12 +78,12 @@ python src\multilsb.py --ga hmpga --set SET1 --instances 1 30 --pop_size 13 --n_
 | `--cross_rate` | 0.8 | Probabilidade de ocorrência do operador de cruzamento (crossover). |
 | `--no_linkage` | False | Desativa o Linkage Learning (por padrão, o aprendizado de ligação é True). |
 | `--top_n` | 10 | Número de variáveis/características mais importantes exibidas nos relatórios. |
-| :--- | GAwLL | :--- |
+|  | GAwLL |  |
 | `--tau_reset` | 50 | Gerações sem melhoria na aptidão antes de reiniciar a população. |
 | `--freq_fix` | 5 | Frequência (em gerações) para aplicação da heurística Fix-and-Optimize. |
 | `--elite_rate` | 0.05 | Taxa de indivíduos de elite selecionados para o Fix-and-Optimize. |
 | `--random_rate` | 5 | Taxa de indivíduos aleatórios para o Fix-and-Optimize. |
-| :--- | HMPGA | :--- |
+| | HMPGA |  |
 | `--n_trees` | 3 | Número de árvores na estrutura multinível do algoritmo |
 | `--mut_rate` | 0.95 | Probabilidade de ocorrência do operador de mutação |
 
