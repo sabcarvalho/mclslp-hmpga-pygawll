@@ -7,7 +7,8 @@
 Este repositório contém os algoritmos, protocolos experimentais e scripts de análise estatística desenvolvidos para a resolução do **Multi-Level Capacitated Lot-Sizing Problem (MLCLSP) com Backlogging** utilizando o benchmark **MULTI-LSB**. Adaptação do PyGAwLL (https://github.com/dgabrl/PyGAwLLfs).
 
 ### Algoritmos Implementados:
-- **HMPGA (Reimplementado):** Algoritmo Genético Híbrido Multinível em Python.
+- **HMPGA (Reimplementado):** Algoritmo Genético Híbrido Multinível em Python proposto por Toledo, Oliveira e França no artigo:
+> TOLEDO, C. F. M.; OLIVEIRA, R. R. R. de; FRANÇA, P. M. A hybrid multi-population genetic algorithm applied to solve the multi-level capacitated lot sizing problem with backlogging. Computers & Operations Research, Elsevier, v. 40, n. 4, p. 910–919, 2013. DOI: 10.1016/j.cor.2012.11.002
 - **HMPGA-LL:** HMPGA estendido com aprendizado de ligação entre variáveis (*Linkage Learning*).
 - **GAwLL + Fix & Optimize:** Algoritmo com decomposição exata/meta-heurística via solver de PLI.
 
