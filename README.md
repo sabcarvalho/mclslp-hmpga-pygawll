@@ -10,7 +10,7 @@ Este repositório contém os algoritmos, protocolos experimentais e scripts de a
 - **HMPGA (Reimplementado):** Algoritmo Genético Híbrido Multinível em Python proposto por Toledo, Oliveira e França no artigo:
 > TOLEDO, C. F. M.; OLIVEIRA, R. R. R. de; FRANÇA, P. M. A hybrid multi-population genetic algorithm applied to solve the multi-level capacitated lot sizing problem with backlogging. Computers & Operations Research, Elsevier, v. 40, n. 4, p. 910–919, 2013. DOI: 10.1016/j.cor.2012.11.002
 - **HMPGA-LL:** HMPGA estendido com aprendizado de ligação entre variáveis (*Linkage Learning*).
-- **GAwLL + Fix & Optimize:** Algoritmo com decomposição exata/meta-heurística via solver de PLI.
+- **GAwLL + Fix & Optimize:** Algoritmo Genético com *linkage learning* adaptado com heurística de *fix-and-optimize*.
 
 ---
 
@@ -79,12 +79,12 @@ python src\multilsb.py --ga hmpga --set SET1 --instances 1 30 --pop_size 13 --n_
 | `--cross_rate` | 0.8 | Probabilidade de ocorrência do operador de cruzamento (crossover). |
 | `--no_linkage` | False | Desativa o Linkage Learning (por padrão, o aprendizado de ligação é True). |
 | `--top_n` | 10 | Número de variáveis/características mais importantes exibidas nos relatórios. |
-|  | GAwLL |  |
+| GAwLL |  |  |
 | `--tau_reset` | 50 | Gerações sem melhoria na aptidão antes de reiniciar a população. |
 | `--freq_fix` | 5 | Frequência (em gerações) para aplicação da heurística Fix-and-Optimize. |
 | `--elite_rate` | 0.05 | Taxa de indivíduos de elite selecionados para o Fix-and-Optimize. |
 | `--random_rate` | 5 | Taxa de indivíduos aleatórios para o Fix-and-Optimize. |
-| | HMPGA |  |
+| HMPGA |  |  |
 | `--n_trees` | 3 | Número de árvores na estrutura multinível do algoritmo |
 | `--mut_rate` | 0.95 | Probabilidade de ocorrência do operador de mutação |
 
