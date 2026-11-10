@@ -1,4 +1,4 @@
-# Repositório do Trabalho de Conclusão de Curso: Algoritmo Genético com Linkage Learning Aplicado ao Problema de Dimensionamento de Lotes Multinível Capacitado com Atrasos
+# Repositório do Trabalho de Conclusão de Curso: Estimação da Importância e Interação de Variáveis em Algoritmos Genéticos Aplicados ao Problema de Dimensionamento de Lotes Multinível Capacitado com Atrasos
 
 ---
 
