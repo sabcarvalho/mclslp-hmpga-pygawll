@@ -4,7 +4,11 @@
 
 ## 📌 Sobre o Projeto
 
-Este repositório contém os algoritmos, protocolos experimentais e scripts de análise estatística desenvolvidos para a resolução do **Multi-Level Capacitated Lot-Sizing Problem (MLCLSP) com Backlogging** utilizando o benchmark **MULTI-LSB**. Adaptação do PyGAwLL (https://github.com/dgabrl/PyGAwLLfs).
+Este repositório contém os algoritmos, protocolos experimentais e scripts de análise estatística desenvolvidos para a resolução do **Multi-Level Capacitated Lot-Sizing Problem (MLCLSP) com Backlogging** utilizando o benchmark **MULTI-LSB** e utilizados no Trabalho de Conclusão de Curso "Estimação da Importância e Interação de Variáveis em Algoritmos Genéticos Aplicados ao Problema de Dimensionamento de Lotes Multinível Capacitado com Atrasos". Adaptação do PyGAwLL (https://github.com/dgabrl/PyGAwLLfs).
+
+Aluna: Sabrina Sousa Carvalho
+Orientador:  Prof. Dr. Renato Tinós
+Co-orientador: Prof. Dr. Cláudio Fabiano Motta Toledo 
 
 ### Algoritmos Implementados:
 - **HMPGA (Reimplementado):** Algoritmo Genético Híbrido Multinível em Python proposto por Toledo, Oliveira e França no artigo:
